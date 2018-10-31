@@ -20,11 +20,6 @@
         "Mappings": []
     },
     {
-        "Path": "/studio",
-        "Name": "Studio",
-        "Mappings": []
-    },
-    {
         "Path": "/migration",
         "Name": "Migration Guide",
         "Mappings": []

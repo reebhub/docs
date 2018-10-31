@@ -1,0 +1,16 @@
+[
+    {
+        "Path": "document-view.markdown",
+        "Name": "Document View",
+        "Mappings": [],
+        "SupportedVersions": [
+            "4.0",
+            "4.1"
+        ]
+    },
+    {
+        "Path": "/additional-features",
+        "Name": "Additional Features",
+        "Mappings": []
+    }
+]

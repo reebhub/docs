@@ -6,8 +6,17 @@
 
   <ItemGroup>
     <Compile Remove="client-api\how-to\excel-images\**" />
+    <Compile Remove="studio\database\documents\document-view\additional-features\counters\**" />
+    <Compile Remove="studio\database\documents\documentView\**" />
+    <Compile Remove="studio\database\documents\NewFolder\**" />
     <EmbeddedResource Remove="client-api\how-to\excel-images\**" />
+    <EmbeddedResource Remove="studio\database\documents\document-view\additional-features\counters\**" />
+    <EmbeddedResource Remove="studio\database\documents\documentView\**" />
+    <EmbeddedResource Remove="studio\database\documents\NewFolder\**" />
     <None Remove="client-api\how-to\excel-images\**" />
+    <None Remove="studio\database\documents\document-view\additional-features\counters\**" />
+    <None Remove="studio\database\documents\documentView\**" />
+    <None Remove="studio\database\documents\NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>

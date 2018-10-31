@@ -43,6 +43,7 @@ RavenDB introduced a set of predefined function, in addition to Jint's ECMAScrip
 | **id(document)** | `string` | Returns document's ID. |
 | **load(documentId)** | `object` | Returns the document with the given ID. |
 | **loadPath(document, pathString)** | `Task` | Returns the document(s) according to the IDs that can be found in the given `document`, in the path `pathString`. The `pathString` can be of a simple Foo.Bar form, in that case, a single document will be returned. It also be of the form Foo.Bars[].Buzz, in that case it will return an array of documents, answering the path . |
+| **a reebok change newly added** | `string` | something with ID. |
 | **cmpxchg(compareExchangeKey)** | `object` | Returns stored  [Compare Exchange](../../client-api/operations/compare-exchange/overview) value for the received key. |
 | **getMetadata(document)** | `object` | Returns document's metadata, along with it's `ChangeVector`, `ID` and `LastModified`. |
 | **lastModified(document)** | `long` | Returns document's last modified metadata value as total miliseconds of UTC . |

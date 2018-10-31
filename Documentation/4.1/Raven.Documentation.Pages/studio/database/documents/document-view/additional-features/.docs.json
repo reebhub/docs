@@ -1,0 +1,31 @@
+[
+    {
+        "Path": "attachments.markdown",
+        "Name": "Attachments",
+        "Mappings": [],
+        "IsPlaceholder": "true"
+    },
+    {
+        "Path": "recent.markdown",
+        "Name": "Recent",
+        "Mappings": [],
+        "IsPlaceholder": "true"
+    },
+    {
+        "Path": "related.markdown",
+        "Name": "Related",
+        "Mappings": [],
+        "IsPlaceholder": "true"
+    },
+    {
+        "Path": "revisions.markdown",
+        "Name": "Revisions",
+        "Mappings": [],
+        "IsPlaceholder": "true"
+    },
+    {
+        "Path": "/counters",
+        "Name": "Counters",
+        "Mappings": []
+    }
+]

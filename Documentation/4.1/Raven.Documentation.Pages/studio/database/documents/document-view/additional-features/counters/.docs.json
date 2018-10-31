@@ -1,0 +1,18 @@
+[
+    {
+        "Path": "whatAreCounters.markdown",
+        "Name": "What are Counters",
+        "Mappings": [],
+        "SupportedVersions": [
+            "4.1"
+        ]
+    },
+    {
+        "Path": "countersManagement.markdown",
+        "Name": "Counters Management",
+        "Mappings": [],
+        "SupportedVersions": [
+            "4.1"
+        ]
+    }
+]

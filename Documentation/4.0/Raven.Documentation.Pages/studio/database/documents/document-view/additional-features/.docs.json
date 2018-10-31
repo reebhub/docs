@@ -1,0 +1,38 @@
+[
+    {
+        "Path": "attachments.markdown",
+        "Name": "Attachments",
+        "Mappings": [],
+        "SupportedVersions": [
+            "4.0",
+            "4.1"
+        ]
+    },
+    {
+        "Path": "recent.markdown",
+        "Name": "Recent",
+        "Mappings": [],
+        "SupportedVersions": [
+            "4.0",
+            "4.1"
+        ]
+    },
+    {
+        "Path": "related.markdown",
+        "Name": "Related",
+        "Mappings": [],
+        "SupportedVersions": [
+            "4.0",
+            "4.1"
+        ]
+    },
+    {
+        "Path": "revisions.markdown",
+        "Name": "Revisions",
+        "Mappings": [],
+        "SupportedVersions": [
+            "4.0",
+            "4.1"
+        ]
+    }
+]

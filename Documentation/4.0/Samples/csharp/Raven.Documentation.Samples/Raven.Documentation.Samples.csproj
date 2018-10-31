@@ -3,6 +3,11 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="ClientApi\Session\counters\**" />
+    <EmbeddedResource Remove="ClientApi\Session\counters\**" />
+    <None Remove="ClientApi\Session\counters\**" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="NodaTime" Version="2.3.0" />
     <PackageReference Include="RavenDB.Client" Version="4.0.7-nightly-20180828-0931" />
     <PackageReference Include="RavenDB.TestDriver" Version="4.0.7-nightly-20180828-0931" />

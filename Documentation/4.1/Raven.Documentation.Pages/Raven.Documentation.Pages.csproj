@@ -4,4 +4,21 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="studio\database\documents\document-view\additional-features\counters\images\**" />
+    <Compile Remove="studio\database\documents\document-view\additional-features\images\**" />
+    <EmbeddedResource Remove="studio\database\documents\document-view\additional-features\counters\images\**" />
+    <EmbeddedResource Remove="studio\database\documents\document-view\additional-features\images\**" />
+    <None Remove="studio\database\documents\document-view\additional-features\counters\images\**" />
+    <None Remove="studio\database\documents\document-view\additional-features\images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="client-api\session\counters\countersFor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="studio\database\documents\document-view\additional-features\counters\" />
+  </ItemGroup>
+
 </Project>
