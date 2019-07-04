@@ -12,23 +12,19 @@
   * [Custom Backup](../cloud/cloud-backup#custom-backup)  
 {NOTE/}
 
----
-
-{PANEL: }
-
-### Automatic Backup  
+{PANEL: Automatic Backup}
 
 Your cloud instance automatically backs up your data to ensure it is safe. This process cannot be disabled.  
 
 * A full backup is created every 24 hours.  
 * An incremental backup is created every 15 minutes.  
 * Backup files are saved for a minimum of 14 days, as per our retention policy.  
-  You can [contact Support](../cloud/cloud-control-panel#the-support-tab) to extend this retention period, but it **cannot 
+  You can [contact support](../cloud/cloud-control-panel#the-support-tab) to extend this retention period, but it **cannot 
 be reduced to less than 14 days.**  
 
----
+{PANEL/}
 
-### Charging For Your Backup storage  
+{PANEL: Charging For Your Backup storage}
 
 Backup storage up to 1 GB is free. Your backup storage usage will be measured once a day. Each month you will be charged 
 based on the *average* amount by which you exceed the 1 GB limit.
@@ -41,9 +37,9 @@ Backup files are compressed.
 To ensure that your data is safe and can be restored if necessary, **we do not delete backup files before 14 days have passed.**
 {NOTE/}
 
----
+{PANEL/}
 
-### Backup Encryption  
+{PANEL: Backup Encryption}
 
 Backup files are always encrypted.
 
@@ -58,12 +54,37 @@ Backup files are always encrypted.
   Keep your encryption keys safe!  
   {WARNING/}
 
----
+{PANEL/}
 
-### Custom Backup  
+{PANEL: Custom Backup}
 
 You can create your own [ongoing backup tasks](https://ravendb.net/docs/article-page/4.2/Csharp/studio/database/tasks/ongoing-tasks/backup-task) 
 on your RavenDB cloud instance as you would off-cloud.  
 
 {PANEL/}
 
+##Related Articles
+
+###Cloud
+
+- [Overview](cloud-overview)
+- [Control Panel](cloud-control-panel)
+- [Tiers and Instances](cloud-instances)
+- [Pricing, Payment and Billing](cloud-pricing-payment-billing)
+- [Backup](cloud-backup)
+- [Migration](cloud-migration)
+- [Scaling](cloud-scaling)
+- [Security](cloud-security)
+
+###Client-API
+
+- [Backup](../client-api/operations/maintenance/backup/backup)
+- [Restore](../client-api/operations/maintenance/backup/restore)
+
+###Server
+
+- [Backup Overview](../server/ongoing-tasks/backup-overview)
+
+###Studio
+
+- [Backup Task](../studio/database/tasks/ongoing-tasks/backup-task)

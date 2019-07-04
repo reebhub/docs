@@ -16,11 +16,11 @@ A client certificate is automatically generated during the creation of your clou
 to access your cluster. In the cloud [Control Panel](../cloud/cloud-control-panel), open the `Products` tab and click the 
 `Download Certificate` button.  
 
-![](images\CloudSecurity_1.png)  
+!["Download Certificate"](images\security-001-download-certificate.png "Download Certificate")  
   
 Extract the certificate package and open it. On Windows double click the `.pfx` file and the `certificate import wizard` will launch: 
 
-![](images\CloudSecurity_2.png)  
+!["Certificate Import Wizard"](images\security-002-wizard.png "Certificate Import Wizard")  
   
 * Click next repeatedly until the wizard is through.  
 * If you use Chrome, you will now be able to access your RavenDB cloud instance.  
@@ -35,11 +35,11 @@ To generate additional operator or [user](../server/security/authorization/secur
 certificates, go to the server management studio.  
 Click on `Manage Certificates`:  
 
-!["Manage Certificates"](images\CloudScaling_ManageCertificates.png "Manage Certificates")  
+!["Manage Certificates"](images\migration-001-manage-certificates.png "Manage Certificates")  
   
 And then on `generate client certificate`:  
   
-!["Generate Client Certificate"](images\CloudSecurity_3.png "Generate Client Certificate")  
+!["Generate Client Certificate"](images\security-003-generate-client-certificate.png "Generate Client Certificate")  
 
 {INFO: }
 If your instance runs on a [burstable CPU](../cloud/cloud-overview#burstable-instances), 
@@ -54,3 +54,19 @@ We recommend that you generate and use **different certificates** for each of yo
 
 {PANEL/}
 
+##Related Articles
+
+###Cloud
+
+- [Overview](cloud-overview)
+- [Control Panel](cloud-control-panel)
+- [Tiers and Instances](cloud-instances)
+- [Pricing, Payment and Billing](cloud-pricing-payment-billing)
+- [Backup](cloud-backup)
+- [Migration](cloud-migration)
+- [Scaling](cloud-scaling)
+- [Security](cloud-security)
+
+###Server
+
+- [Security Overview](../server/security/overview)
