@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="server\security\NewFolder\" />
     <Folder Include="studio\database\tasks\images\" />
   </ItemGroup>
 
