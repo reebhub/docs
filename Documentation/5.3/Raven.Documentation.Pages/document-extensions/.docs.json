@@ -1,7 +1,7 @@
 [
     {
-        "Path": "/timeseries",
-        "Name": "Time Series",
+        "Path": "/attachments",
+        "Name": "Attachments",
         "Mappings": []
     },
     {
@@ -10,8 +10,13 @@
         "Mappings": []
     },
     {
-        "Path": "/attachments",
-        "Name": "Attachments",
+        "Path": "/timeseries",
+        "Name": "Time Series",
+        "Mappings": []
+    },
+    {
+        "Path": "/revisions",
+        "Name": "Revisions",
         "Mappings": []
     }
 ]
