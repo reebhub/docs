@@ -14,5 +14,10 @@
         "Path": "/client-api",
         "Name": "Client API",
         "Mappings": []
+    },
+    {
+        "Path": "/document-extensions",
+        "Name": "Document Extensions",
+        "Mappings": []
     }
 ]
