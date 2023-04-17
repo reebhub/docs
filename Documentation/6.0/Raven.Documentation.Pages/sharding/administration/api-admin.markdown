@@ -120,6 +120,7 @@ orchestrators nodes that host no shards.
     | Parameter | Type | Description |
     |:-------------:|:-------------:|-------------|
     | `databaseName` | string | Database Name |
+    | `shardNumber` | string | Shard Number |
     | `node ` | string | The node that the replica will be set on (optional). <br> If not provided, RavenDB will select an available node. |
 
 * Return value: `DatabasePutResult`  
@@ -143,8 +144,8 @@ orchestrators nodes that host no shards.
     | Parameter | Type | Description |
     |:-------------:|:-------------:|-------------|
     | `databaseName` | string | Database Name |
-    | `shard ` | int | Shard number |
-    | `node ` | string | Node tag |
+    | `shardNumber` | int | Shard number |
+    | `node` | string | Node tag |
 
 * Return value: `DatabasePutResult`  
   {CODE DatabasePutResult@Sharding\ShardingAdministration.cs /}

@@ -14,8 +14,8 @@
   is required from clients when accessing a sharding-capable server 
   or a sharded database.  
     * The client API is **unchanged** under a sharded database.  
-      Clients of RavenDB versions older than 6.0 (that do not 
-      provide sharding) can seamlessly connect a sharded database,
+      Clients of RavenDB versions older than 6.0 (that provided 
+      no sharding support) can seamlessly connect a sharded database,
       without making any adaptations or even knowing that the 
       database they connect is sharded.  
     * Particular modifications in RavenDB features under a sharded 
@@ -236,22 +236,12 @@ to a different shard, and then associates the bucket with the new shard.
 
 {NOTE: }
 
-* A sharded database can be created via API or using Studio.  
+* A sharded database can be [created via Studio](../sharding/administration/studio-admin#creating-a-sharded-database).  
 
 * A RavenDB cluster can run sharded and non-sharded databases in parallel.  
 
 * RavenDB (6.0 and on) supports sharding by default, no further steps are required to enable the feature.
 {NOTE/}
-
-To create a sharded database via API, use [CreateDatabaseOperation](../client-api/operations/server-wide/create-database) as follows.  
-
-{CODE-BLOCK:csharp}
-store.Maintenance.Server.Send(
-    new CreateDatabaseOperation(
-        new DatabaseRecord(database), 
-        replicationFactor: 2, // Sharding Replication Factor
-        shardFactor: 3)); // Sharding Factor
-{CODE-BLOCK/}
 
 {PANEL/}
 
