@@ -535,7 +535,6 @@ public class Functions
 - [Download dotnet](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)  
 
 ### AWS
-
 - [Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)  
 - [dotnet Lambda](https://docs.aws.amazon.com/lambda/latest/dg/csharp-package-cli.html)  
 - [AWS VS Code](https://aws.amazon.com/visualstudiocode/)  
@@ -554,7 +553,6 @@ public class Functions
 - [Variables](https://docs.github.com/en/actions/learn-github-actions/variables)  
 
 ### RavenDB
-
 - [Cloud Signup](https://cloud.ravendb.net?utm_source=ravendb_docs&utm_medium=web&utm_campaign=howto_template_lambda_csharp&utm_content=cloud_signup)  
 - [Get Started](../../../start/getting-started)  
 - [Client Certificates](../../../client-api/setting-up-authentication-and-authorization)  
