@@ -23,9 +23,7 @@
 
 {PANEL: Choose range in a query}
 
-{NOTE: }
-
-#### Specify range
+#### Specify range:
 
 * Provide 'from' & 'to' DateTime values to the time series query to retrieve entries only from that range (inclusive).
   Omitting these parameters will retrieve the entire series.
@@ -51,11 +49,9 @@ select timeseries(
 {CODE-TAB-BLOCK/}
 {CODE-TABS/}
 
-{NOTE/}
+---
 
-{NOTE: }
-
-#### Retrieve first or last entries
+#### Retrieve first or last entries:
 
 * Use `FromFirst()` to specify the time frame from the start of the time series.  
   Use `FromLast()` to specify the time frame from the end of the time series.  
@@ -77,16 +73,11 @@ select timeseries(
 {CODE-TAB-BLOCK/}
 {CODE-TABS/}
 
-{NOTE/}
 {PANEL/}
 
 {PANEL: Choose range - RQL syntax}
 
-{NOTE: }
-
-#### `between`&nbsp;and&nbsp;`and`
-
----
+#### `between`&nbsp;and&nbsp;`and`:
 
 * Use the `between` and `and` keywords to retrieve time series entries from the specified range (inclusive).  
   Provide the timestamps in UTC format.
@@ -135,13 +126,9 @@ select timeseries(
 )
     {CODE-BLOCK/}
 
-{NOTE/}
-
-{NOTE: }
-
-#### `first`&nbsp;and&nbsp;`last`
-
 ---
+
+#### `first`&nbsp;and&nbsp;`last`:
 
 * Use `first` to specify the time frame from the start of the time series.  
   Use `last` to specify the time frame from the end of the time series.  
@@ -176,7 +163,6 @@ select timeseries(
     * **years**    ( years / year / y )
     * Note: **milliseconds** are currently not supported by 'first' and 'last' in a time series query.
 
-{NOTE/}
 {PANEL/}
 
 ## Related articles

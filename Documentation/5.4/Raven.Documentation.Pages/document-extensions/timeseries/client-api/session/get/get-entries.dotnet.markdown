@@ -23,6 +23,9 @@
 * In this page:  
   * [`Get` usage](../../../../../document-extensions/timeseries/client-api/session/get/get-entries#get-usage)
   * [Examples](../../../../../document-extensions/timeseries/client-api/session/get/get-entries#examples)
+     * [Get all entries](../../../../../document-extensions/timeseries/client-api/session/get/get-entries#get-all-entries)
+     * [Get range of entries](../../../../../document-extensions/timeseries/client-api/session/get/get-entries#get-range-of-entries)
+     * [Get entries with multiple values](../../../../../document-extensions/timeseries/client-api/session/get/get-entries#get-entries-with-multiple-values)
   * [Include parent and tagged documents](../../../../../document-extensions/timeseries/client-api/session/get/get-entries#include-parent-and-tagged-documents)
   * [Syntax](../../../../../document-extensions/timeseries/client-api/session/get/get-entries#syntax)
 
@@ -44,22 +47,24 @@
 
 {PANEL: Examples}
 
-{NOTE: }
+#### Get all entries:
 
 In this example, we retrieve all entries of the "Heartrate" time series.  
 The ID of the parent document is explicitly specified.  
 
 {CODE timeseries_region_Get-All-Entries-Using-Document-ID@DocumentExtensions\TimeSeries\TimeSeriesTests.cs /}
 
-{NOTE/}
-{NOTE: }
+---
+
+#### Get range of entries:
 
 In this example, we query for a document and get its "Heartrate" time series data.
 
 {CODE timeseries_region_Pass-TimeSeriesFor-Get-Query-Results@DocumentExtensions\TimeSeries\TimeSeriesTests.cs /}
 
-{NOTE/}
-{NOTE: }
+---
+
+#### Get entries with multiple values:
 
 * Here, we check whether a stock's closing-time price is rising from day to day (over three days).  
   This example is based on the sample entries that were entered in [this example](../../../../../document-extensions/timeseries/client-api/session/append#append-entries-with-multiple-values).
@@ -72,8 +77,6 @@ In this example, we query for a document and get its "Heartrate" time series dat
 {CODE-TAB:csharp:Native timeseries_region_Get-NO-Named-Values@DocumentExtensions\TimeSeries\TimeSeriesTests.cs /}
 {CODE-TAB:csharp:Named timeseries_region_Get-Named-Values@DocumentExtensions\TimeSeries\TimeSeriesTests.cs /}
 {CODE-TABS/}
-
-{NOTE/}
 
 {PANEL/}
 

@@ -39,25 +39,19 @@
 
 {PANEL: Patching examples}
 
-{NOTE: }
-
-<a id="append-multiple-entries" /> __Append multiple entries__:
+#### Append multiple entries:
 
 In this example, we append 100 time series entries with random heart rate values to a document.  
 
 {CODE:nodejs patch_1@documentExtensions\timeSeries\client-api\patchTimeSeries.js /}
 
-{NOTE/}
+---
 
-{NOTE: }
-
-<a id="delete-multiple-entries" /> __Delete multiple entries__:
+#### Delete multiple entries:
 
 In this example, we remove a range of 50 time series entries from a document.  
 
 {CODE:nodejs patch_2@documentExtensions\timeSeries\client-api\patchTimeSeries.js /}
-
-{NOTE/}
 
 {PANEL/}
 

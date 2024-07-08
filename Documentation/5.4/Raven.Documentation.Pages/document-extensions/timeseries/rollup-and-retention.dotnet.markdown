@@ -85,20 +85,13 @@ Because time series entries are limited to 32 values, rollups are limited to the
 
 {PANEL: Examples}
 
-{NOTE: }
-
-#### Create time series policies
-
----
+#### Create time series policies:
 
 {CODE rollup_and_retention_0@DocumentExtensions\TimeSeries\RollupAndRetention.cs /}
 
-{NOTE/}
-{NOTE: }
-
-#### Retrieve rollup data
-
 ---
+
+#### Retrieve rollup data:
 
 * Retrieving entries from a rollup time series is similar to getting the raw time series data.
 
@@ -106,7 +99,6 @@ Because time series entries are limited to 32 values, rollups are limited to the
 
 {CODE rollup_and_retention_1@DocumentExtensions\TimeSeries\RollupAndRetention.cs /}
 
-{NOTE/}
 {PANEL/}
 
 {PANEL: Syntax}

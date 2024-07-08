@@ -39,25 +39,19 @@
 
 {PANEL: Patching examples}
 
-{NOTE: }
-
-<a id="append-multiple-entries" /> __Append multiple entries__:
+#### Append multiple entries:
 
 In this example, we append 100 time series entries with random heart rate values to a document.  
 
 {CODE TS_region-Session_Patch-Append-100-Random-TS-Entries@DocumentExtensions\TimeSeries\TimeSeriesTests.cs /}
 
-{NOTE/}
+---
 
-{NOTE: }
-
-<a id="delete-multiple-entries" /> __Delete multiple entries__:
+#### Delete multiple entries:
 
 In this example, we remove a range of 50 time series entries from a document.  
 
 {CODE TS_region-Session_Patch-Delete-50-TS-Entries@DocumentExtensions\TimeSeries\TimeSeriesTests.cs /}
-
-{NOTE/}
 
 {PANEL/}
 

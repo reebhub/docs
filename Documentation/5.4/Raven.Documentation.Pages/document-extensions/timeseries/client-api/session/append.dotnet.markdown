@@ -6,20 +6,20 @@
 
 * Use `TimeSeriesFor.Append` for the following actions:
 
-    * __Create a new time series__:  
+    * **Create a new time series**:  
       Appending an entry to a time series that doesn't exist yet  
       will create the time series and add it the new entry.
 
-    * __Create a new time series entry__:  
+    * **Create a new time series entry**:  
       Appending a new entry to an existing time series  
       will add the entry to the series at the specified timestamp.
 
-    * __Modify an existing time series entry__:  
+    * **Modify an existing time series entry**:  
       Use _Append_ to update the data of an existing entry with the specified timestamp.
 
-* Each call to `Append` handles a __single__ [time series entry](../../../../document-extensions/timeseries/design#time-series-entries).
+* Each call to `Append` handles a **single** [time series entry](../../../../document-extensions/timeseries/design#time-series-entries).
 
-* To append __multiple__ entries in a single transaction you can:  
+* To append **multiple** entries in a single transaction you can:  
   * Call `Append` as many times as needed before calling `session.SaveChanges`, as shown in the examples below.
   * Use patching to update the time series. Learn more in [Patch time series entries](../../../../document-extensions/timeseries/client-api/session/patch).
   * Append entries directly on the _Store_ via [Operations](../../../../client-api/operations/what-are-operations). Learn more in [Append time series operations](../../../../document-extensions/timeseries/client-api/operations/append-and-delete). 
@@ -39,7 +39,7 @@
 
 {PANEL: `Append` usage}
 
-__Flow__:
+**Flow**:
 
 * Open a session.
 * Create an instance of `TimeSeriesFor` and pass it the following:
@@ -50,7 +50,7 @@ __Flow__:
 * Call `TimeSeriesFor.Append` and pass it the time series entry details.
 * Call `session.SaveChanges` for the action to take effect on the server.
 
-__Note__:
+**Note**:
 
 * A `DocumentDoesNotExistException` exception is thrown if the specified document does not exist.
 
@@ -58,11 +58,7 @@ __Note__:
 
 {PANEL: Examples}
 
-{NOTE: }
-
-<a id="append-entries-with-single-value" /> __Append entries with single value__:
-
----
+#### Append entries with single value:
 
 * In this example, entries are appended with a single value.
 
@@ -71,13 +67,9 @@ __Note__:
 
 {CODE timeseries_region_TimeSeriesFor-Append-TimeSeries-Range@DocumentExtensions\TimeSeries\TimeSeriesTests.cs /}
 
-{NOTE/}
-
-{NOTE: }
-
-<a id="append-entries-with-multiple-values" /> __Append entries with multiple values__:
-
 ---
+
+#### Append entries with multiple values:
 
 * In this example, we append multi-value StockPrice entries.
 
@@ -87,8 +79,6 @@ __Note__:
   {CODE-TAB:csharp:Native timeseries_region_Append-Unnamed-Values-2@DocumentExtensions\TimeSeries\TimeSeriesTests.cs /}
   {CODE-TAB:csharp:Using_named_values timeseries_region_Append-Named-Values-2@DocumentExtensions\TimeSeries\TimeSeriesTests.cs /}
   {CODE-TABS/}
-
-{NOTE/}
 
 {PANEL/}
 
@@ -100,10 +90,10 @@ __Note__:
 
 | Parameter     | Type                  | Description                   |
 |---------------|-----------------------|-------------------------------|
-| __timestamp__ | `DateTime`            | Time series entry's timestamp |
-| __value__     | `double`              | Entry's value                 |
-| __values__    | `IEnumerable<double>` | Entry's values                |
-| __tag__       | `string`              | An optional tag for the entry |
+| **timestamp** | `DateTime`            | Time series entry's timestamp |
+| **value**     | `double`              | Entry's value                 |
+| **values**    | `IEnumerable<double>` | Entry's values                |
+| **tag**       | `string`              | An optional tag for the entry |
 
 {PANEL/}
 
