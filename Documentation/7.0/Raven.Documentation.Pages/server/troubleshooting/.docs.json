@@ -11,10 +11,8 @@
         ]
     },
     {
-        "Path": "logging.markdown",
-        "Name": "Logging",
-        "DiscussionId": "9f099a2d-1393-4a76-ad66-640903507751",
-        "Mappings": []
+        "Path": "/logging",
+        "Name": "Logging"
     },
     {
         "Path": "voron-recovery-tool.markdown",

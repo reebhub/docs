@@ -14,7 +14,12 @@
         "Path": "logging.markdown",
         "Name": "Logging",
         "DiscussionId": "9f099a2d-1393-4a76-ad66-640903507751",
-        "Mappings": []
+        "Mappings": [
+            {
+                "Version": 7.0,
+                "Key": "server/troubleshooting/logging/logging"
+            }
+        ]
     },
     {
         "Path": "voron-recovery-tool.markdown",
