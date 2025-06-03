@@ -19,7 +19,7 @@
      defined for this task, instructing the model what to do with the data and how 
      to structure its reply.  
    * Defining a **Prompt**.  
-     The prompt, written in regular English, instructs the AI model what to do with the data passed to it.  
+     The prompt, written in natural language, instructs the AI model what to do with the data passed to it.  
    * Defining a **JSON schema** Javascript.  
      The schema script instructs the AI model how to structure its replies.  
    * Defining an **Update JavaScript**.  

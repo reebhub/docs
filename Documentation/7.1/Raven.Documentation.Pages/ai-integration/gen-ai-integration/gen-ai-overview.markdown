@@ -53,7 +53,7 @@ Let's put the above stages in order.
     * The task is associated with a **Connection string** that defines how to connect to the AI model.
     * Each context object is sent over its own separate connection to the AI model.  
     * Each object is sent along with a **Prompt** and a **JSON schema**.  
-      The prompt is written in regular english, with your instructions to the AI model.  
+      The prompt can be written in natural language, with your instructions to the AI model.  
       The schema defines how the model is to structure its replies.  
 5. The task can then apply an **Update script** (JavaScript) to handle the results.  
 {CONTENT-FRAME/}
@@ -65,7 +65,7 @@ These are the elements that need to be defined for a GenAI task.
 
 * A **connection string** to the GenAI model.  
 * A **Context generation script** that uses `ai.genContext` to create each context object.  
-* A **Prompt**, written in regular English, instructing the AI model what to do with the data passed to it.  
+* A **Prompt**, written in natural language, instructing the AI model what to do with the data passed to it.  
 * A **JSON schema**, written in JavaScript, instructing the AI model how to structure its replies.  
 * An **Update JavaScript**, written in JavaScript, that is executed over replies returned from the AI model.  
 {CONTENT-FRAME/}
